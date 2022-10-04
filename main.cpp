@@ -1,3 +1,12 @@
+/***************************************************************************************************
+ // FileName:        main.cpp
+ // Program version: Dev-C++ 5.11
+ // Company:         TECNM - ITCH
+ // Description:     Laboratorio_3 Configuracion ADC
+ // Authors:         ERNESTO ARIEL ARCINIEGA RIVERA 19060765
+ // Updated:         3/10/2022
+ // Version: 		 1.0
+ **************************************************************************************************/
 #include <iostream>
 #include "Adc.hpp"
 #include "Adc_freq.hpp"
@@ -22,6 +31,10 @@ int main() {
 	
 	cout<<"Introduce el numero de canales a leer: "; //INTRODUCIR NUMERO DE CANALES
 	cin>>n;
+	if(n ==false){
+		cout<<"Numero invalido"<<endl;
+		exit(0);
+	}
 	Adc::setReso(); //METODO ESTATICO PARA ESTABLECER LA RESOLUCION
 	
 	if(x==1){	//OPCION 1 DEL MENU

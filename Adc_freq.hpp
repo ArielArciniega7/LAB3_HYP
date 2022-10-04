@@ -1,3 +1,12 @@
+/***************************************************************************************************
+ // FileName:        Adc_freq.hpp
+ // Program version: Dev-C++ 5.11
+ // Company:         TECNM - ITCH
+ // Description:     Laboratorio_3 Configuracion ADC
+ // Authors:         ERNESTO ARIEL ARCINIEGA RIVERA 19060765
+ // Updated:         3/10/2022
+ // Version: 		 1.0
+ **************************************************************************************************/
 #pragma once
 #include <iostream>
 #include <string>

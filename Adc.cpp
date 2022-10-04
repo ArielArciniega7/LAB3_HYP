@@ -1,3 +1,12 @@
+/***************************************************************************************************
+ // FileName:        Adc.cpp
+ // Program version: Dev-C++ 5.11
+ // Company:         TECNM - ITCH
+ // Description:     Laboratorio_3 Configuracion ADC
+ // Authors:         ERNESTO ARIEL ARCINIEGA RIVERA 19060765
+ // Updated:         3/10/2022
+ // Version: 		 1.0
+ **************************************************************************************************/
 #include "Adc.hpp"
 //Constructor
 Adc::Adc(){
@@ -18,7 +27,6 @@ void Adc::Freq_muestreo(int freq){
 void Adc::captura(){ //CAPTURA DE DATOS
 	cout<<endl<<"Canal que se leera (AN1 - AN32): ";
 	cin>>_nombre;
-	
 }
 
 void Adc::print(){ //CANAL DEFINIDO
@@ -46,6 +54,7 @@ void Adc::setReso(){ //Metodo statico para establecer la resolucion
 	}
 }
 void Adc::mostrarDatos(){ //IMPRIME DATOS
-	cout<<"Canal "<<_nombre <<" recibio "<<_volts <<"v "<<" lo convirtio a " <<_dato<<" con una frecuencia de "<<_ack<<"Hz "<<endl;
+	cout<<"Canal "<<_nombre <<" recibio "<<_volts <<"v "<<" lo convirtio a " 
+	<<_dato<<" con una frecuencia de "<<_ack<<"Hz "<<endl;
 }
 
